@@ -1,0 +1,11 @@
+---
+layout: page
+title: Images
+---
+<h2>Images on this Site </h2>
+
+{% for file in site.static_files %}
+   {% if file.image %}
+   <img src="{{file.path}}" alt="{file.name"}>
+  {% endif %}
+{% endfor %}
