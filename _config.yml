@@ -43,6 +43,7 @@ defaults:
      values:
        image: true
 
+
 header_pages:
   - about.md
   - postlist.md
